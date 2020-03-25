@@ -22,7 +22,7 @@ DEPS = ${SRCS} \
 	src/vmir_bitcode_instr.c \
 	src/vmir_wasm_parser.c \
 
-CFLAGS = -std=gnu99 -Wall -Werror -Wmissing-prototypes \
+CFLAGS = -std=gnu99 -Wall -Wmissing-prototypes \
 	-I${CURDIR}
 
 CFLAGS += -DVMIR_USE_TLSF -I${CURDIR}/tlsf
